@@ -1,8 +1,5 @@
-import React from 'react';
-import { ChangeEvent } from 'react';
-import { useState } from 'react';
+import React, { useState, ChangeEvent }  from 'react';
 import './App.css';
-
 const App = () => {
   const [userValue, setUserValue] = useState<string>('')
 
